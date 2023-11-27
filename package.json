@@ -12,13 +12,13 @@
     "@config-plugins/react-native-ble-plx": "^7.0.0",
     "eas-cli": "^5.9.1",
     "expo": "~49.0.15",
+    "expo-dev-client": "~2.4.12",
+    "expo-splash-screen": "~0.20.5",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
     "react-native": "0.72.6",
     "react-native-base64": "^0.2.1",
-    "react-native-ble-plx": "^3.1.2-rc.0",
-    "expo-dev-client": "~2.4.12",
-    "expo-splash-screen": "~0.20.5"
+    "react-native-ble-plx": "^3.1.2-rc.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
