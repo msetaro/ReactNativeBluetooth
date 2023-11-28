@@ -45,6 +45,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fc5d03b8-56e8-4583-859a-9b97a50ec867"
+      }
+    },
+    "owner": "msetaro826"
   }
 }

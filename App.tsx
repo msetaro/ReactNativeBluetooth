@@ -1,12 +1,23 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, StyleSheet } from 'react-native';
+import { Typography, Button, List } from 'antd'
+import useBle from './Hooks/useBle';
 
 export default function App() {
+
+  const {
+    requestPermissions,
+    scanForDevices,
+    foundDevices
+  } = useBle();
+
   return (
-    <View style={styles.container}>
-      <Text>testing</Text>
+    <SafeAreaView style={styles.container}>
+      <Typography>testing</Typography>
+      <Button title='Start scanning' onClick={scanForDevices}></Button>
+      <List dataSource={foundDevices}></List>
       <StatusBar style="auto" />
-    </View>
+    </SafeAreaView>
   );
 }
 
